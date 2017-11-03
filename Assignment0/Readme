@@ -1,0 +1,5 @@
+Nqueen solver for given board 
+a0.py Q N r c 
+Q, R specifies queen and rook specifically 
+N is size of board 
+r, c are row and column index for a dead piece on board 
