@@ -1,4 +1,4 @@
-This assignement is worked by Adarsh,Shyam,Praneta
+This assignment is worked by Adarsh,Shyam,Praneta
 Problem 1:
 Road trip problem 
 Problem 2:
