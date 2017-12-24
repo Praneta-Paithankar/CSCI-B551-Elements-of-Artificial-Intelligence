@@ -20,3 +20,10 @@ The two players alternate turns, with White going first.On each turn, a player m
 
 A  player  wins  by  capturing  the  other  player’s  Kingfisher.   (Note  some  of  the  differences  with  traditionalChess:  there’s no notion of check or checkmate, no en passant, and no castling.)
 
+Your task is to write a Python program that plays Pichu well.  Use the minimax algorithm with alpha-betasearch and a suitable heuristic evaluation function.  
+Your program should accept a command line argumentthat gives the current state of the board as a string of 64 characters, each of which is one of: .for an emptysquare,P or pfor a white or black Parakeet,R or r for a white or black Robin,N or n for a white or black Night hawk,Q or q for a white or black Quetzal,K or k for a white or black Kingfisher, and B or bfor a white or black Blue jay, in row-major order. 
+
+For example, the encoding of the start state of the game would be:RNBQKBNRPPPPPPPP................................pppppppprnbqkbnr
+
+More precisely, your program will be called with three command line parameters: (1) the current player (w orb), (2) the state of the board, encoded as above, and (3) a time limit in seconds.  Your program should thendecide a recommended single move for the given player from the given current board state, and display thenew state of the board after making that move,within the number of seconds specified.Displaying multiplelines of output is fine as long as the last line has the recommended board state.  (This is an easy way ofdealing  with  the  time  limit:  the  program  can  very  quickly  calculate  and  print  a  suggested  “rough-draft”move, and then print out better moves as it finds them; our test programs will kill your program after thetime limit has passed and look only at the last move.) 
+
