@@ -19,4 +19,4 @@ For testing, your program run like this:
 ./orient.py test test_file.txt model_file.txt [model]
 
 
-Akshay ,Ameya and Praneta worked on this assignment.
+Contributors: Akshay, Ameya and Praneta
