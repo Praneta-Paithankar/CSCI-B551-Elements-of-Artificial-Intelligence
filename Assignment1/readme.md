@@ -4,4 +4,4 @@ Problem 2: Group Assignment problem
 
 Problem 3: 15 puzzle
 
-Contributors: Adarsh,Praneta and Shyam
+Contributors: Adarsh, Praneta and Shyam
